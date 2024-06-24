@@ -6,21 +6,23 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
+        
 }
 
+/* hero section */
 .herocontainer{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     color: white;
+    padding: 0px 200px;
 }
 
 .section1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-}
+    }
 .logo{
     display: flex;
     flex: auto;
@@ -34,9 +36,8 @@ ul {
 
 .section2{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: auto;
     gap: 24px;
 }
 
@@ -44,3 +45,6 @@ ul {
     height: 300px;
     width: 300px;
 }
+
+/* middle section */
+
