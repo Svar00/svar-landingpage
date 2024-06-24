@@ -1,4 +1,5 @@
 body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
 
@@ -6,6 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
+
         
 }
 
@@ -15,7 +17,8 @@ body{
     flex-direction: column;
     background-color: #1F2937;
     color: white;
-    padding: 0px 200px;
+    padding: 0px 200px 80px 200px;
+    
 }
 
 .section1{
@@ -36,15 +39,75 @@ ul {
 
 .section2{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 24px;
+    padding-top: 80px;
 }
 
 .heroimg {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: auto;
+    flex: auto;
+}
+
+.herotext {
+    flex: auto;
+    height: 200px;
 }
 
 /* middle section */
 
+
+.section3title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 0px 200px;
+}
+
+.section3img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 200px 80px 200px;
+      
+}
+
+.infoimg {
+    height: 300px;
+    width: auto;
+}
+
+.section3img p {
+    width: 300px;
+    height:auto;
+    font-size: smaller;
+}
+
+/* mid section gray */
+
+.section4{
+    background-color: #E5E7EB;
+    padding: 80px 200px 80px 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1F2937;
+}
+
+.by {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.section4 p{
+    margin: 0px;
+}
