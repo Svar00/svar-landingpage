@@ -111,3 +111,54 @@ ul {
 .section4 p{
     margin: 0px;
 }
+
+/* CTA */
+
+.section5{
+    padding: 80px 200px 80px 200px;
+}
+
+.ctacontainer{
+    display: flex;
+    padding: 40px 80px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    background-color: #3882f6;
+    color: white;
+}
+
+
+.ctatext{
+    flex-basis: 80%;
+}
+
+.buttoncta{
+    flex-shrink: 0;
+    background-color: #3882f6;
+    color: white;
+    border:solid 1px white;
+    border-radius: 5%;
+    flex-basis: 10%;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.ctamain{
+    font-weight: bolder;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    height: 80px;
+
+}
