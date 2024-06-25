@@ -16,7 +16,8 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
+    flex-basis: auto;
     padding: 0px 200px 80px 200px;
     
 }
@@ -29,6 +30,14 @@ body{
 .logo{
     display: flex;
     flex: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 ul {
@@ -42,19 +51,46 @@ ul {
     align-items: center;
     gap: 24px;
     padding-top: 80px;
+    
 }
 
 .heroimg {
+    flex-basis: 50%;
     height: 200px;
-    width: auto;
-    flex: auto;
+    flex-shrink: 0;
 }
 
 .herotext {
-    flex: auto;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    gap: 8px;
+}
+.herotext p {
+    margin: 0px;
+}
+.maintext{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    }
+
+.secondarytext{
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
+.buttonhero{
+    flex:auto;
+    background-color: #3882f6;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+    max-width: 20%;
+}
 /* middle section */
 
 
@@ -69,20 +105,23 @@ ul {
 .section3img{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 200px 80px 200px;
+    height: 100%;
       
 }
 
-.infoimg {
-    height: 300px;
-    width: auto;
+.imgtextcont{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    font-size: x-small;
+    font-weight: lighter;
 }
 
-.section3img p {
-    width: 300px;
-    height:auto;
-    font-size: smaller;
+.infoimg{
+    border-radius: 5%;
+    border: solid #3882f6 
 }
 
 /* mid section gray */
@@ -126,6 +165,7 @@ ul {
     gap: 80px;
     background-color: #3882f6;
     color: white;
+    border-radius: 10px;
 }
 
 
@@ -138,7 +178,7 @@ ul {
     background-color: #3882f6;
     color: white;
     border:solid 1px white;
-    border-radius: 5%;
+    border-radius: 5px;
     flex-basis: 10%;
     font-size: 12px;
     padding: 5px;
